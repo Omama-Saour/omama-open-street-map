@@ -13,20 +13,19 @@ This is a simple Flutter project that showcases essential functionalities of **O
 
 ## 📦 Packages Used
 
-```yaml
-geolocator: ^12.0.0
-geocoding: ^3.0.0
-flutter_map: ^7.0.2
-latlng: ^2.0.7
-latlong2: ^0.9.1
-http: ^1.2.1
+- geolocator: ^12.0.0
+- geocoding: ^3.0.0
+- flutter_map: ^7.0.2
+- latlng: ^2.0.7
+- latlong2: ^0.9.1
+- http: ^1.2.1
 
 # 🛠️ Getting Started
 
 ## Clone the repository:
 
-git clone https://github.com/Omama-Saour/omama-open-street-map.git
-cd omama-open-street-map
+- git clone https://github.com/Omama-Saour/omama-open-street-map.git
+- cd omama-open-street-map
 
 ## Install dependencies:
 
