@@ -1,16 +1,37 @@
-# omama_map
+# 🗺️ Flutter OpenStreetMap Demo
 
-A new Flutter project.
+This is a simple Flutter project that showcases essential functionalities of **OpenStreetMap** using `flutter_map` and other helpful packages.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- 🌍 Display map
+- 📍 Add and customize **markers**
+- ➖➖ Draw **polylines** automatically between two `LatLng` points to show routes
+- 🔺 Display **polygons**
+- 🟢 Display **circles** to highlight areas
+- 🎮 Control the map programmatically with `MapController`
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Packages Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```yaml
+geolocator: ^12.0.0
+geocoding: ^3.0.0
+flutter_map: ^7.0.2
+latlng: ^2.0.7
+latlong2: ^0.9.1
+http: ^1.2.1
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 🛠️ Getting Started
+
+## Clone the repository:
+
+git clone https://github.com/Omama-Saour/omama-open-street-map.git
+cd omama-open-street-map
+
+## Install dependencies:
+
+flutter pub get
+
+## Run the app:
+
+flutter run
